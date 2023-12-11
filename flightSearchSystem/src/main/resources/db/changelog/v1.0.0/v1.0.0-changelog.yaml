@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/v1.0.0/create-table-person.sql
+  - include:
+      file: db/changelog/v1.0.0/add-role-column.sql
+  - include:
+      file: db/changelog/v1.0.0/create-table-trainRequests.sql
+  - include:
+      file: db/changelog/v1.0.0/create-table-flightRequest.sql

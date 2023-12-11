@@ -1,0 +1,101 @@
+.searchbox {
+    min-width: 300px;
+    width: 80vw;
+    max-width: 1200px;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    margin: 20px;
+    padding: 0 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.226);
+    justify-content: space-evenly;
+}
+
+.vehicles {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.vehicles button {
+    width: 160px;
+    height: 40px;
+    margin: 15px 5px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 1.05em;
+    color: rgb(0, 0, 0);
+    transition: all 0.25s ease-in-out;
+    user-select: none;
+}
+
+.vehicles button:hover {
+    border-bottom: 5px solid #222222;
+    filter: brightness(120%);
+}
+
+.vehicles button:active {
+    filter: brightness(80%);
+}
+
+.moveinf {
+    margin: 10px 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.moveinf input{
+    height: 50px;
+    border: rgba(61, 61, 61, 0.548) solid 1px; 
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline: 0;
+    font-size: 1.5em;
+    font-family: "Murecho Light";
+    padding: 0 10px;
+    
+}
+
+.moveinf input:nth-child(1),input:nth-child(2) {
+    width: 49%;
+}
+
+
+.moveinf input:nth-child(3),input:nth-child(4) {
+    width: 32%;
+}
+
+.moveinf button {
+    width: 32%;
+    height: 50px;
+    border: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-size: 1.4em;
+    background-color: #aa0000;
+    color: white;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+.moveinf button:hover {
+    filter: brightness(110%);
+}
+
+
+.moveinf button:active {
+    filter: brightness(80%);
+}

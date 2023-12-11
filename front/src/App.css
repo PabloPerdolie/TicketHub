@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Murecho Extra Light";
+    src: url(./Fonts/Murecho-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: "Murecho Light";
+    src: url(./Fonts/Murecho-Light.ttf);
+}
+
+@font-face {
+    font-family: "Murecho Medium";
+    src: url(./Fonts/Murecho-Medium.ttf);
+}
+
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: #f0f8ff;
+    width: 100%;
+}
+
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Murecho Medium';
+}
+
+body > div {
+    display: grid;
+    grid-template-rows: 75px 1fr 20vh;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+}
+
+#back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #00d2f8;
+    height: 47vh;
+    width: 100%;
+    transition: all 1s ease-in-out;
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 0 90%);
+    z-index: -1;
+}
+
+#front {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #417bff;
+    width: 100%;
+    height: 50vh;
+    transition: all 1s ease-in-out;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 60%);
+    z-index: -1;
+}

@@ -1,0 +1,49 @@
+.footer {
+    display: flex;
+    position: relative;
+    height: 20vh;
+    margin: 30px 0 0 0;
+    padding: 0;
+    align-self: flex-end;
+}
+
+
+.cont {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contacts {
+    display: flex;
+    gap: 20px;
+}
+
+.contacts > * {
+    font-size: 2em;
+    color: rgb(133, 133, 133);
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+}
+
+.contacts > :hover {
+    color: #aa0000;
+}
+
+.policy {
+    position: absolute;
+    top: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    color: white;
+    font-family: "Murecho Light";
+    background-color: #aa0000;
+}

@@ -1,0 +1,8 @@
+.tickets {
+    min-width: 300px;
+    width: 80vw;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

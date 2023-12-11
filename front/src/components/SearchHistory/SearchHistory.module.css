@@ -1,0 +1,32 @@
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 30px 0;
+    padding: 30px;
+    border-radius: 20px;
+    min-width: 300px;
+    width: 80vw;
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+
+.histList  {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.item {
+    border-bottom: 1px solid rgb(153, 153, 153);
+    display: grid;
+    grid-template-columns: 1fr repeat(5, 5fr);
+    font-size: 1.1em;
+    padding: 5px 0;
+    gap: 10px;
+}
+
+.histList > :not(:nth-child(1)) > * {
+    font-family: "Murecho Light";
+}
